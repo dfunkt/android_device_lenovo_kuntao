@@ -388,7 +388,8 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     vndk-ext \
-    vndk-sp
+    vndk-sp \
+    com.android.vndk.current.on_vendor
 
 # Vibrator
 PRODUCT_PACKAGES += \

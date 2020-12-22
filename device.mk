@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
     libmm-qcamera \
-    GCam
+    Camera2
 
 # Display
 PRODUCT_PACKAGES += \
@@ -159,10 +159,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service
-
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # DPM
 PRODUCT_PACKAGES += \
@@ -254,12 +250,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service
-
-# Lenovo stuff
-PRODUCT_PACKAGES += \
-    LenovoParts \
-    DeviceSettings \
-    init.lenovo.parts.rc
 
 # Lights
 PRODUCT_PACKAGES += \
